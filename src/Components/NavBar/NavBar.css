@@ -1,0 +1,63 @@
+@import '../../vars.css';
+
+.nav{
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: transparent;
+}
+
+.navLogo{
+    flex: 1;
+    width: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLogo img{
+    width: 100px;
+}
+
+
+.navlinks{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.navLink{
+    color: var(--color-primary); 
+    /* --color-white */
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.phone{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.phoneIcon{
+    padding: 9px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    font-size: 12px;
+    color: var(--color-black);
+}
+
+.number{
+    color: var(--color-primary);
+}

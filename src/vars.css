@@ -1,0 +1,15 @@
+:root{
+    /* colors */
+    --color-primary : #f6cf43;
+    --color-secondary: #be9e58;
+    --color-dark: #4e4b4a;
+    --color-medium-dark: #72707c;
+    --color-light-dark: #c4b9b6;
+    --color-white: #fbfbfb;
+    --color-black: #1A1816;
+}
+
+.BtnPrimary{
+    color: var(--color-black);
+    background-color: var(--color-primary);
+}
