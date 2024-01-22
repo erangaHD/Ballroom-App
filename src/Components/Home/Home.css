@@ -1,0 +1,68 @@
+@import '../../vars.css';
+
+.homeContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    
+}
+
+.homeText{
+    flex: 1;
+}
+
+
+.homeImgSets{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.homeImgSet{
+    display: flex;
+    align-items: center;    
+    gap: 30px;
+    align-self: center
+}
+
+
+
+.shortImg{
+    height: 35%;
+    width: 35%;
+    flex: 5;
+}
+
+.longImg{
+    flex: 4;
+    width: 35%;   
+
+}
+
+@media screen and (max-width:830px) {
+    .homeContent{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .homeImgSet{
+        flex-direction: column;
+        gap: 10px;        
+    }
+
+    .homeImgSets{
+        gap: 10px;
+        width: 100%;
+    }
+
+    .longImg{
+        width: 90%;
+    }
+
+    .shortImg{
+        width: 90%;
+    }
+}

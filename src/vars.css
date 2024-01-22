@@ -2,14 +2,37 @@
     /* colors */
     --color-primary : #f6cf43;
     --color-secondary: #be9e58;
-    --color-dark: #4e4b4a;
-    --color-medium-dark: #72707c;
+    --color-dark: rgb(78, 75, 74);
+    --color-medium-dark: rgb(114, 112, 124);
     --color-light-dark: #c4b9b6;
     --color-white: #fbfbfb;
     --color-black: #1A1816;
 }
 
 .BtnPrimary{
-    color: var(--color-black);
+    color: var(--color-dark);
     background-color: var(--color-primary);
+    border: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: ease-in-out 0.15s;
+} 
+
+.BtnPrimary:hover{
+    background-color: var(--color-secondary);
+    transform: scale(1.05);
+    color: var(--color-white);
+}
+
+.container{
+    padding: 8%;
+}
+
+@media screen and (max-width:830px) {
+    .container{
+        padding: 10%;
+    }
 }

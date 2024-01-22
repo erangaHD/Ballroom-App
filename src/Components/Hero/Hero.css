@@ -1,0 +1,158 @@
+@import '../../vars.css';
+
+.heroContainer{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;   
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroContainer.midle{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;   
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroContainer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    /* background: rgba(114, 112, 124, 0.5);  */
+    z-index: 1;
+  }
+   
+.hedder.middle{
+    color: var(--color-white);
+    z-index: 3;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    gap: 25px;
+}
+.hedder{
+    color: var(--color-white);
+    z-index: 3;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5%;
+    gap: 25px;
+}
+
+.headline{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.subtitle{
+    font-size: 15px;
+}
+
+.btnHide{
+    display: none;
+}
+
+
+.socialMedia{
+    color: var(--color-white);
+    z-index: 3;
+    position: relative;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5%;
+    
+}
+
+.socialContent{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.contactText{
+    font-size: 15px;
+}
+
+.socialIcons{
+    display: flex;    
+    gap: 10px;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socialIcon{
+    color: var(--color-dark);
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    transition: ease-in-out 0.1s;
+}
+
+.socialIcon:hover{
+    background-color: var(--color-secondary);
+    transform: scale(1.05);
+    color: var(--color-white);
+}
+
+
+@media screen and (max-width:1550px) {
+    .heroContainer{
+        height: 600px;
+    }
+    .heroContainer.midle{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .heroContainer{
+        height: 500px;
+        flex-direction: column;
+        /* padding-top: 50px; */
+    }
+    .heroContainer.midle{
+        height: 500px;
+        flex-direction: column;
+        /* padding-top: 50px; */
+    }
+    
+    .headline{
+        font-size: 30px;
+    }
+
+    .hedder{
+        margin-top: 140px;
+    }
+    .hedder.midle{
+        margin-top: 140px;
+    }
+    
+}
