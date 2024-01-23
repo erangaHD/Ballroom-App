@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import Hero from '../Hero/Hero'
+import Footer from '../Footer/Footer'
 
 const About = () => {
   return (
@@ -10,6 +11,8 @@ const About = () => {
       image="hero4.webp" isheadline={false}/>
       
       <h1>about</h1>
+
+      <Footer/>
       
     </div>
   )

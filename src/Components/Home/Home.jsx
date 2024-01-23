@@ -3,6 +3,7 @@ import getImageUrl from '../../utils'
 import './Home.css'
 import NavBar from '../NavBar/NavBar'
 import Hero from '../Hero/Hero'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
   return (
@@ -15,10 +16,10 @@ const Home = () => {
       <div className="container">
         <div className="homeContent">
           <div className="homeText">
-            <h2 className="homeTitle">
+            <h2 className="contentTitle homeTitle">
               Take more chances, dance more dances.
             </h2> <br />
-            <p className="homeDescription">
+            <p className="contentText homeDescription">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
               Impedit cum temporibus tempore adipisci nostrum ullam 
               voluptatum sint in dolorem, fugit commodi, maxime quo beatae 
@@ -26,7 +27,7 @@ const Home = () => {
               culpa repellendus! Necessitatibus, at.
             </p>
             <br />
-            <p className="homeDescription">
+            <p className="contentText homeDescription">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Ad tempora quaerat nam, accusamus possimus ullam vero 
               laboriosam debitis voluptate harum omnis explicabo iure, 
@@ -49,6 +50,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Footer/>
     </>
   )
 }
