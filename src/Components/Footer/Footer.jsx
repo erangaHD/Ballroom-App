@@ -63,12 +63,12 @@ const Footer = () => {
 
         <div className="footerBottom">
             <div className="footerSocialIcons">
-                <a href="/"><FontAwesomeIcon icon={faFacebook} className='footerSocialIcon' /></a>
-                <a href="/"><FontAwesomeIcon icon={faSquareInstagram} className='footerSocialIcon' /></a>
-                <a href="/"><FontAwesomeIcon icon={faXTwitter} className='footerSocialIcon' /></a>
-                <a href="/"><FontAwesomeIcon icon={faYoutube} className='footerSocialIcon' /></a>
-                <a href="/"><FontAwesomeIcon icon={faTiktok} className='footerSocialIcon' /></a>
-                <a href="/"><FontAwesomeIcon icon={faPinterest} className='footerSocialIcon' /></a>
+                <a href="/x" target='blank'><FontAwesomeIcon icon={faFacebook} className='footerSocialIcon' /></a>
+                <a href="/x" target='blank'><FontAwesomeIcon icon={faSquareInstagram} className='footerSocialIcon' /></a>
+                <a href="/x" target='blank'><FontAwesomeIcon icon={faXTwitter} className='footerSocialIcon' /></a>
+                <a href="/x" target='blank'><FontAwesomeIcon icon={faYoutube} className='footerSocialIcon' /></a>
+                <a href="/x" target='blank'><FontAwesomeIcon icon={faTiktok} className='footerSocialIcon' /></a>
+                <a href="/x" target='blank'><FontAwesomeIcon icon={faPinterest} className='footerSocialIcon' /></a>
             </div>
             <span>&copy; 2024 The DANCE COMPUND Dancing Acadamy. All rights reserved.</span>
             

@@ -1,8 +1,17 @@
 @import '../../vars.css';
 
+/* .enentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 
 .eventCards{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    width: 80%;
+
+    
 }

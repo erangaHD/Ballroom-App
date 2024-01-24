@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import Events from './Components/Events/Events';
 import Classes from './Components/Classes/Classes';
 import About from './Components/About/About';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/events' element={<Events/>} />
           <Route path='/classes' element={<Classes/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='*' element={<PageNotFound/>}/>
         </Routes>
       </BrowserRouter>
 
