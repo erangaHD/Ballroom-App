@@ -1,1 +1,52 @@
 @import '../../vars.css';
+
+.classContainer{
+    background-color: var(--color-dark);
+}
+
+.classTitle{
+    color: var(--color-white);
+}
+
+.classTabs{
+    display: flex;
+}
+
+.joinContainer{
+    display: flex;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--color-white);
+}
+
+tr{
+    height: 60px;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: var(--color-black);
+    
+}
+tr:nth-child(even) {
+    background-color: var(--color-medium-dark);
+    
+}
+
+td{
+    padding: 0 15px;
+}
+
+.time{
+    text-align: center;
+}
+
+.croud{
+    text-align: right;
+}
+.croudIcon{
+    text-align: left;
+}

@@ -10,7 +10,7 @@ function Events() {
     <div>
       <NavBar/>
       <Hero headline="Here are some our works.."       
-      image="hero2.webp" isheadline={false}/>
+      image="hero3.jpg" isheadline={false}/>
 
       <div className="container enentContainer">
           <h2 className="contentTitle">

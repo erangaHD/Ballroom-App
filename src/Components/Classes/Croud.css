@@ -1,0 +1,11 @@
+@import '../../vars.css';
+
+.fill{
+    color: var(--color-primary);
+    font-size: 25px;
+}
+
+.empty{
+    color: var(--color-dark);
+    font-size: 25px;
+}

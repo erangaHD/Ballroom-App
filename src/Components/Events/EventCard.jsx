@@ -9,14 +9,7 @@ import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 const EventCard = (props) => {
 
     const imgUrl = getImageUrl(`event/${props.image}`)
-    const description = props.description
-
-    const sectionStyle = {
-        backgroundImage: `url(${imgUrl})`,
-        backgroundSize: 'cover', // Adjust as needed
-        backgroundPosition: 'center', // Adjust as needed
-        
-      };
+    const description = props.description   
 
   return (
     <div className='cardContainer'>
