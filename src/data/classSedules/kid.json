@@ -1,0 +1,45 @@
+[
+    {
+    "day":"Saturday",
+    "start":"10.00 am",
+    "end":"12.00am",
+    "croud":24,
+    "teacher":"Ms. Saduni de Silva"
+    },
+    {
+    "day":"Saturday",
+    "start":"02.00 pm",
+    "end":"04.00pm",
+    "croud":30,
+    "teacher":"Ms. Hashini Perera"
+    },
+    {
+    "day":"Sunday",
+    "start":"10.00 am",
+    "end":"12.00am",
+    "croud":30,
+    "teacher":"Ms. Saduni de Silva"
+    },
+    {
+    "day":"saturday",
+    "start":"02.00 pm",
+    "end":"04.00pm",
+    "croud":28,
+    "teacher":"Ms. Hashini Perera"
+    },
+    {
+    "day":"Tuesday",
+    "start":"02.00 pm",
+    "end":"04.00pm",
+    "croud":10,
+    "teacher":"Ms. Hashini Perera"
+    },
+    {
+    "day":"Wednesday",
+    "start":"02.00 pm",
+    "end":"04.00pm",
+    "croud":12,
+    "teacher":"Ms. Saduni de Silva"
+    }
+    
+  ]

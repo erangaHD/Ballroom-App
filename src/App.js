@@ -5,6 +5,7 @@ import Events from './Components/Events/Events';
 import Classes from './Components/Classes/Classes';
 import About from './Components/About/About';
 import PageNotFound from './Components/PageNotFound/PageNotFound';
+import ContactForm from './Components/Classes/ContactForm';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/events' element={<Events/>} />
           <Route path='/classes' element={<Classes/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/contactform' element={<ContactForm/>}/>
           <Route path='*' element={<PageNotFound/>}/>
         </Routes>
       </BrowserRouter>

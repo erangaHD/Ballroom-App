@@ -10,10 +10,44 @@
 
 .classTabs{
     display: flex;
+    color: var(--color-primary);
+    margin: 20px 0;
+    border-bottom: var(--color-primary) 1px solid;
+}
+
+.classTab{
+    border: var(--color-primary) 1px solid;
+    width: 120px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    cursor: pointer;
+    font-size: 17px;
+    transition: ease-in-out 0.25s;
+}
+
+.classTab:hover{
+    font-size: 18px;
+}
+
+.classTab.active{
+    cursor: auto;
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+}
+.classTab.active:hover {
+    font-size: 17px;
 }
 
 .joinContainer{
     display: flex;
+    margin: 15px 0;
+    gap: 10px;
+}
+
+.joinText{
+    color: var(--color-white);
 }
 
 table{
@@ -36,6 +70,10 @@ tr:nth-child(even) {
     
 }
 
+.hiddenRow{
+    display: none;
+}
+
 td{
     padding: 0 15px;
 }
@@ -49,4 +87,15 @@ td{
 }
 .croudIcon{
     text-align: left;
+    
+}
+
+@media screen and (max-width:615px) {
+    .croudIcon{
+        display: none;
+    }
+    td{
+        font-size: 12px;
+        padding: 0 5px;
+    }
 }

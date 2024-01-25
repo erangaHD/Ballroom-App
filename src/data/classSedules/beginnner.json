@@ -1,0 +1,45 @@
+[
+    {
+    "day":"Saturday",
+    "start":"12.00 am",
+    "end":"02.00pm",
+    "croud":20,
+    "teacher":"Ms. Dewmi Sithara"
+    },
+    {
+    "day":"Saturday",
+    "start":"04.00 pm",
+    "end":"06.00pm",
+    "croud":17,
+    "teacher":"Ms. Sarala Dissanayake"
+    },
+    {
+    "day":"Sunday",
+    "start":"12.00 am",
+    "end":"02.00pm",
+    "croud":12,
+    "teacher":"Ms. Dewmi Sithara"
+    },
+    {
+    "day":"Saturday",
+    "start":"04.00 pm",
+    "end":"06.00pm",
+    "croud":25,
+    "teacher":"Ms. Sarala Dissanayake"
+    },
+    {
+    "day":"Monday",
+    "start":"02.00 pm",
+    "end":"04.00pm",
+    "croud":23,
+    "teacher":"Ms. Hashini Perera"
+    },
+    {
+    "day":"Tuesday",
+    "start":"02.00 pm",
+    "end":"04.00pm",
+    "croud":20,
+    "teacher":"Ms. Saduni de Silva"
+    }
+    
+  ]

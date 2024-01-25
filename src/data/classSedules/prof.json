@@ -1,0 +1,38 @@
+[
+    {
+    "day":"Saturday",
+    "start":"11.00 am",
+    "end":"01.00pm",
+    "croud":14,
+    "teacher":"Ms. Disna Perera"
+    },
+    {
+    "day":"Saturday",
+    "start":"01.00 pm",
+    "end":"03.00pm",
+    "croud":22,
+    "teacher":"Ms. Upuli Samuwel"
+    },
+    {
+    "day":"Sunday",
+    "start":"11.00 am",
+    "end":"01.00pm",
+    "croud":12,
+    "teacher":"Ms. Upuli Samuwel"
+    },
+    {
+    "day":"Saturday",
+    "start":"01.00 pm",
+    "end":"03.00pm",
+    "croud":20,
+    "teacher":"Ms. Disna Perera"
+    },
+    {
+    "day":"Friday",
+    "start":"06.00 pm",
+    "end":"08.00pm",
+    "croud":5,
+    "teacher":"Ms. Disna Perera"
+    }
+    
+  ]
