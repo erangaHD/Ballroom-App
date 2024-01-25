@@ -25,7 +25,8 @@ const Classes = () => {
   }
 
   return (
-    <div>
+    <div>      
+
       <NavBar/>
       <Hero headline="Let's start the journey together"       
       image="hero2.webp" isheadline={false}/>
