@@ -1,0 +1,93 @@
+@import '../../vars.css';
+
+.TestiContainer{
+    box-shadow: 10px 10px 35px var(--color-light-dark);
+    z-index: -1;
+}
+
+.TestiContainer ul{
+    list-style: none;
+}
+
+.testiWraper{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px 30px;
+}
+
+.testiThumbnail{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.testiThumbnail::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 160px;
+    background-color: var(--color-primary);
+    border-radius: 33% 67% 50% 50% / 50% 14% 86% 50%;
+    z-index: -1;
+    box-shadow: 7px 7px 35px var(--color-dark);
+}
+
+.testiThumbnail img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.testiAside{
+    position: relative;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.testiAside p{
+    position: relative;
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.openQuote, .closeQuote{
+    font-size: 50px;
+    color: var(--color-secondary);
+}
+
+.closeQuote{
+    text-align: right;
+}
+
+.testiName h4{
+    color: var(--color-secondary);
+}
+
+@media screen and (max-width:630px) {
+    .testiWraper{
+        flex-direction: column;
+        gap: 5px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width:300px) {
+    .testiThumbnail{
+        width: 110px;
+        height: 110px;
+    }
+    .testiThumbnail::before{
+        width: 130px;
+        height: 120px;
+    }
+}

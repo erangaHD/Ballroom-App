@@ -35,8 +35,8 @@ const Hero = (props) => {
                         Follow us on
                     </p>
                     <div className="socialIcons">                        
-                        <a href="/"><FontAwesomeIcon icon={faFacebook} className='socialIcon' /></a>
-                        <a href="/"><FontAwesomeIcon icon={faSquareInstagram} className='socialIcon' /></a>
+                        <a href="/x" target='blank'><FontAwesomeIcon icon={faFacebook} className='socialIcon' /></a>
+                        <a href="/x" target='blank'><FontAwesomeIcon icon={faSquareInstagram} className='socialIcon' /></a>
                         
                         
                     </div>

@@ -1,1 +1,88 @@
 @import '../../vars.css';
+
+.VMcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.vision, .mission{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px 0; */
+}
+
+.mission{
+    flex-flow: row-reverse;
+}
+
+.aboutTitle{
+    color: var(--color-secondary);
+}
+
+.vmImg{
+    width: 50%;
+}
+
+.service{
+    background: var(--color-light-dark);
+}
+
+.serviceContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    color: var(--color-black);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.serviceContainer ul{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.serviceContainer li{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.pointIcon{
+    color: var(--color-dark);
+    font-size: 30px;
+}
+
+.testimonials{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.testimonials h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .vision, .mission{
+        flex-direction: column;
+    }
+
+    .vmImg{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .serviceContainer{
+        flex-direction: column;
+        gap: 15px;
+    }
+}

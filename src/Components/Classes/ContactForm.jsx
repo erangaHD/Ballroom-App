@@ -21,7 +21,7 @@ const ContactForm = () => {
     <form action="" className='container formContainer'>
         <div className="formContent">
 
-            <h2 className='contentTitle'>Join Our Classes</h2>
+            <h2 className='contentTitle contactTitle'>Join Our Classes</h2>
             <div className="name fieldContainer">
                 <label htmlFor="" className='label'>Name</label>
                 <input type="text" name='name' placeholder='Student Name' className='input'/>
