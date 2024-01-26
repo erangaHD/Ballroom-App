@@ -71,6 +71,20 @@
     margin-bottom: 30px;
 }
 
+.mySwiper .swiper-pagination-bullet {
+    background-color: var(--color-primary);
+    padding: 5px;
+    transform: translateY(-10px);
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    color: var(--color-primary);
+    /* width: calc(var(--swiper-navigation-size) / 100 * 27); */
+    /* display: none; */
+    width: 40px;
+}
+
 @media screen and (max-width:600px) {
     .vision, .mission{
         flex-direction: column;

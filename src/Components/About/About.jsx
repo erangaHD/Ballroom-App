@@ -2,16 +2,28 @@ import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import Hero from '../Hero/Hero'
 import Footer from '../Footer/Footer'
+import Testimonial from './Testimonial'
 
 import './About.css'
 import getImageUrl from '../../utils'
+import testim from '../../data/testimonial.json'
 
 // https://fontawesome.com/icons
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import Testimonial from './Testimonial'
 
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const About = () => {
   return (
@@ -83,7 +95,27 @@ const About = () => {
         <div className="testimonials">
         <h2>See what people are saying</h2>
         </div>
-        <Testimonial/>  
+        <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper"
+        >
+          {
+            testim.map((item, id) => {
+              return <SwiperSlide key={id}><Testimonial name={item.name} class={item.Class} image={item.Image} message={item.message}/></SwiperSlide>
+            })
+          }          
+          
+        </Swiper>
       </div>      
 
       <Footer/>

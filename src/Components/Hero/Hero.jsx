@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link  } from 'react-router-dom';
 import './Hero.css'
 import getImageUrl from '../../utils'
 
@@ -25,7 +26,9 @@ const Hero = (props) => {
             <div className={`hedder ${isheadline ? '': 'midle'}`}>
                 <h1 className='headline'>{props.headline}</h1>
                 <p className="subtitle">{props.subtitle}</p>
-                <button className={isheadline ? 'BtnPrimary' : 'btnHide'}>Join with Us</button>
+                <Link to='/contactform' target='blank'>
+                    <button className={isheadline ? 'BtnPrimary' : 'btnHide'}>Join with Us</button>
+                </Link>
             </div>
 
             <div className="socialMedia">

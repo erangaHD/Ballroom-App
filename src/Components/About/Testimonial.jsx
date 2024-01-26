@@ -6,21 +6,24 @@ import './Testimonial.css'
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Testimonial = () => {
+
+
+
+const Testimonial = (props) => {
   return (
     <div className='TestiContainer'>
         
                 <div className="testiWraper">
                     <div className="testiThumbnail">
-                        <img src={getImageUrl('testimonial/tanya.jpg')} alt="" />
+                        <img src={getImageUrl(props.image)} alt="person" />
                     </div>
                     <div className="testiAside">
                         <div className='openQuote'><FontAwesomeIcon icon={faQuoteLeft} /></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum veniam vero eos optio quaerat consequatur aut placeat deleniti ipsa?</p>
+                        <p>{props.message}</p>
                         <div className='closeQuote'><FontAwesomeIcon icon={faQuoteRight} /></div>
                         <div className="testiName">
-                            <h4>Tanya Silva</h4>
-                            <p>Begginer Class Student</p>
+                            <h4>{props.name}</h4>
+                            <p>{props.class}</p>
                         </div>
                     </div>
                 </div>

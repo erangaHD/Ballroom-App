@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Tanya De Silva",
+        "Class" : "Begginer Class Student",
+        "Image" : "testimonial/tanya.jpg",
+        "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum veniam vero eos optio quaerat consequatur aut placeat deleniti ipsa."
+    },
+    {
+        "name" : "Chamil Prasad",
+        "Class" : "Professional Class Student",
+        "Image" : "testimonial/chamil.webp",
+        "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum veniam vero eos optio quaerat consequatur aut placeat deleniti ipsa."
+    },
+    {
+        "name" : "Roshel Diaz",
+        "Class" : "Begginer Class Student",
+        "Image" : "testimonial/roshel.jpg",
+        "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum veniam vero eos optio quaerat consequatur aut placeat deleniti ipsa."
+    },
+    {
+        "name" : "Bhanuka Divakara",
+        "Class" : "Begginer Class Student",
+        "Image" : "testimonial/banuka.webp",
+        "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum veniam vero eos optio quaerat consequatur aut placeat deleniti ipsa."
+    },
+    {
+        "name" : "Dilini Tharuka",
+        "Class" : "Professional Class Student",
+        "Image" : "testimonial/dilini.jpg",
+        "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum veniam vero eos optio quaerat consequatur aut placeat deleniti ipsa."
+    }
+]
