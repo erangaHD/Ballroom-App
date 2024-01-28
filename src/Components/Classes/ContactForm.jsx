@@ -37,7 +37,12 @@ const ContactForm = () => {
     //     console.log(event.target.value);
     // }
     
-    // const handleGender = (event) => {}
+    const handleGender = (event) => {
+        setFormContent({
+            ...formContent,
+            gender:event.target.value
+        })
+    }
     
     const handleAddressL1 = (event) => {
         setFormContent({
@@ -107,7 +112,9 @@ const ContactForm = () => {
         setSelectedDate(date);
         setFormContent({
             ...formContent,
-            bDay:date
+            bDay:date.toDateString()
+            // bDay:date
+            // bDay:`${date.getDay()}.${date.getMonth()}.${date.getFullYear()}}`
         })
     };
 
@@ -134,11 +141,13 @@ const ContactForm = () => {
                 <p className='label genderLabel'>Gender</p>
                 <dir className="input genderInput">
                     <div className="genderRadio">
-                        <input type="radio" id="male" name="gender" value="male"/>                
+                        <input type="radio" id="male" name="gender" value="male"
+                        checked={formContent.gender === 'male'} onChange={handleGender}/>                
                         <label htmlFor="">Male</label>
                     </div>
                     <div className="genderRadio">
-                            <input type="radio" id="female" name="gender" value="female"/>
+                            <input type="radio" id="female" name="gender" value="female"
+                            checked={formContent.gender === 'female'} onChange={handleGender}/>
                             <label htmlFor="">Female</label>
                     </div>
                 </dir>
