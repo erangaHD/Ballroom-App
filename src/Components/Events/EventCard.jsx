@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import getImageUrl from '../../utils'
 import './EventCard.css'
 
@@ -7,6 +8,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const EventCard = (props) => {
+
+    useEffect(() => {
+        document.title = 'TDC-Events'
+    }, [])
 
     const imgUrl = getImageUrl(`event/${props.image}`)
     const description = props.description   

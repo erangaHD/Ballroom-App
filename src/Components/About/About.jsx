@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import NavBar from '../NavBar/NavBar'
 import Hero from '../Hero/Hero'
 import Footer from '../Footer/Footer'
@@ -26,6 +27,14 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const About = () => {
+
+  useEffect(() => {
+    document.title = 'TDC-About'
+  }, [])
+
+ 
+  
+
   return (
     <div>
       <NavBar/>

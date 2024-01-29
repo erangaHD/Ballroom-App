@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import getImageUrl from '../../utils'
 import './Home.css'
 import NavBar from '../NavBar/NavBar'
@@ -6,6 +7,11 @@ import Hero from '../Hero/Hero'
 import Footer from '../Footer/Footer'
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = 'The Dancing Compund'
+  }, [])
+
   return (
     <>
     <NavBar/>

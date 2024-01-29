@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link  } from 'react-router-dom';
 import './Classes.css'
 import NavBar from '../NavBar/NavBar'
@@ -23,6 +23,11 @@ const Classes = () => {
   const tabprof = () => {
     setActiveTab("prof")
   }
+
+  useEffect(() => {
+    document.title = 'TDC-Classes'
+  }, [])
+  
 
   return (
     <div>      
